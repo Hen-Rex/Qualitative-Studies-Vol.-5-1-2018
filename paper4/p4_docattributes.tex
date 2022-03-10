@@ -1,0 +1,47 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%% START P4_DOCATTRIBUTES.tex %%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%% TITLE PAPER1
+%%%%%
+\title{Striving for Experiential Resonance}
+\subtitle{Critique, Postcritique, and Phenomenology}
+\fulltitle{\thetitle:\\\textit{\LARGE\theSubtitle}} % the entire title to be edited in one place
+\headertitle{\thetitle}
+
+
+%%%%%%%%%% AUTHORS PAPER1
+%%%%%
+\makeatletter % requires 'keyval' package
+%
+\define@key{author1}{name}[Jesper Aagaard]{#1}
+\define@key{author1}{initialsname}[J.~Aagaard]{#1}
+\define@key{author1}{title}[]{#1}
+\define@key{author1}{institution}[Aarhus University, Department of Psychology and Behavioral Sciences,\\Barholins Allé 11, Bldg. 1350, \#223, 8000 Aarhus C: Denmark]{#1}
+\define@key{author1}{email}[\mailto{jaagaard@psy.au.dk}]{#1}
+\define@key{author1}{orcidID}[\theORCIDiDgreen{0000-0002-3260-7005}]{#1}
+%%%%%
+%
+\makeatother
+%
+%#########
+
+
+%%%%%%%%%% Print Author
+%%%%%
+\author{\protect\setkeys{author1}{name}~\protect\setkeys{author1}{orcidID}
+%
+\smallskip
+%
+\footnotesize{
+\\\emph{\protect\setkeys{author1}{institution}}
+\\(\emph{\protect\setkeys{author1}{email}}%
+)}}
+%####
+%#########
+
+
+%#######################################################
+%############# END P4_DOCATTRIBUTES.tex #################
+%#######################################################

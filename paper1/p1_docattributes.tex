@@ -1,0 +1,79 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%% START P1_DOCATTRIBUTES.tex %%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%% TITLE PAPER1
+%%%%%
+\title{Resonance In A Hurried World}
+\subtitle{\thetitle}
+\fulltitle{\thetitle} % the entire title to be edited in one place
+\headertitle{\theSubtitle}
+
+
+%%%%%%%%%% AUTHORS PAPER1
+%%%%%
+\makeatletter % requires 'keyval' package
+%
+\define@key{author1}{name}[Noomi Matthiesen]{#1}
+\define@key{author1}{initialsname}[N.~Matthiesen]{#1}
+\define@key{author1}{title}[]{#1}
+\define@key{author1}{institution}[Aalborg University, Department of Communication and Psychology, Kroghstræde 3, 8220 Aalborg Ø: Denmark]{#1}
+\define@key{author1}{email}[\mailto{noomi@hum.aau.dk}]{#1}
+\define@key{author1}{orcidID}[\theORCIDiDgreen{0000-0003-0357-1952}]{#1}
+%
+\define@key{author2}{name}[Kasper Trolle Elmholdt]{#1}
+\define@key{author2}{initialsname}[K.~Elmholdt]{#1}
+\define@key{author2}{title}[]{#1}
+\define@key{author2}{institution}[Aalborg University, Department of Political Science, Fibigerstræde 3, 9220 Aalborg Ø: Denmark]{#1}
+\define@key{author2}{email}[\mailto{elm@dps.aau.dk}]{#1}
+\define@key{author2}{orcidID}[\theORCIDiDgreen{0000-0002-0325-5266}]{#1}
+%
+\define@key{author3}{name}[Charlotte Wegener]{#1}
+\define@key{author3}{initialsname}[C.~Wegener]{#1}
+\define@key{author3}{title}[]{#1}
+\define@key{author3}{institution}[Aalborg University, Department of Communication and Psychology, Kroghstræde 3, 8220 Aalborg Ø: Denmark]{#1}
+\define@key{author3}{email}[\mailto{cw@id.aau.dk}]{#1}
+\define@key{author3}{orcidID}[\theORCIDiDgreen{}]{#1}
+%
+\define@key{author4}{name}[Ninna Meier]{#1}
+\define@key{author4}{initialsname}[N.~Meier]{#1}
+\define@key{author4}{title}[]{#1}
+\define@key{author4}{institution}[Aalborg University, Department of Sociology and Social Work, Kroghstræde 7, 9220 Aalborg Ø: Denmark]{#1}
+\define@key{author4}{email}[\mailto{meier@socsci.aau.dk}]{#1}
+\define@key{author4}{orcidID}[\theORCIDiDgreen{}]{#1}
+%%%%%
+%
+\makeatother
+%
+%#########
+
+
+%%%%%%%%%% Print Author
+%%%%%
+\author{\protect\setkeys{author1}{name}$^{1}${$^{\ast}$}~\protect\setkeys{author1}{orcidID}
+\and
+\protect\setkeys{author2}{name}$^{2}$~\protect\setkeys{author2}{orcidID}
+\and
+\protect\setkeys{author3}{name}$^{1}${$^{\dagger}$}%~\protect\setkeys{author3}{orcidID}
+\and
+\\\protect\setkeys{author4}{name}$^{4}$%~\protect\setkeys{author4}{orcidID}
+%
+\smallskip
+%
+\footnotesize{
+\\$^{1}$\emph{\protect\setkeys{author1}{institution}}
+\\$^{2}$\emph{\protect\setkeys{author2}{institution}} 
+\\$^{4}$\emph{\protect\setkeys{author4}{institution}}
+\\($^{\ast}$\emph{\protect\setkeys{author1}{email}}%
+\quad$^{2}$\emph{\protect\setkeys{author2}{email}}%
+\quad$^{\dagger}$\emph{\protect\setkeys{author3}{email}}%
+\quad$^{4}$\emph{\protect\setkeys{author4}{email}}%
+)}}
+%####
+%#########
+
+
+%#######################################################
+%############# END P1_DOCATTRIBUTES.tex #################
+%#######################################################

@@ -1,0 +1,47 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%% START P3_DOCATTRIBUTES.tex %%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%% TITLE PAPER1
+%%%%%
+\title{Resonant Experience in Emergent Events of Analysis}
+\subtitle{\thetitle}
+\fulltitle{\thetitle} % the entire title to be edited in one place
+\headertitle{\theSubtitle}
+
+
+%%%%%%%%%% AUTHORS PAPER1
+%%%%%
+\makeatletter % requires 'keyval' package
+%
+\define@key{author1}{name}[Line Revsbæk]{#1}
+\define@key{author1}{initialsname}[L.~Revsbæk]{#1}
+\define@key{author1}{title}[]{#1}
+\define@key{author1}{institution}[Aalborg University, Department of Political Science, Fibigerstræde~3, 9220~Aalborg Øst: Denmark]{#1}
+\define@key{author1}{email}[\mailto{revsbaek@learning.aau.dk}]{#1}
+\define@key{author1}{orcidID}[\theORCIDiDgreen{}]{#1}
+%%%%%
+%
+\makeatother
+%
+%#########
+
+
+%%%%%%%%%% Print Author
+%%%%%
+\author{\protect\setkeys{author1}{name}%~\protect\setkeys{author1}{orcidID}
+%
+\smallskip
+%
+\footnotesize{
+\\\emph{\protect\setkeys{author1}{institution}}
+\\(\emph{\protect\setkeys{author1}{email}}%
+)}}
+%####
+%#########
+
+
+%#######################################################
+%############# END P3_DOCATTRIBUTES.tex #################
+%#######################################################
